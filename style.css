@@ -56,11 +56,8 @@ header {
 
 .grid5 {
   text-align: left;
-  margin-left: 10px;
   padding: 5px;
-  word-spacing: 13px;
   font-size: 14px;
-  letter-spacing: 0.5px;
 }
 
 .grid6 {
@@ -68,6 +65,14 @@ header {
   padding: 7px;
   font-size: 13px;
   margin-left: 46px;
-  word-spacing: 13px;
-  letter-spacing: 1px;
+}
+
+ul {
+  display: flex;
+  padding-left: 10px;
+  list-style: none;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 8px;
 }
